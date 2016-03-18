@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MIACompnent"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MIACompnent."
+  s.summary      = "use for component managerment"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+	 A longer description of MyPodDemo in Markdown format.
+ 	* Think: Why did you write this? What is the focus? What does it do?
+ 	* CocoaPods will be using this to generate tags, and improve search results.
+ 	* Try to keep it short, snappy and to the point.
+ 	* Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
   s.homepage     = "https://github.com/tianjackyang/MIACompnentAdmin"
@@ -79,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/tianjackyang/MIACompnentAdmin", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/tianjackyang/MIACompnentAdmin.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
