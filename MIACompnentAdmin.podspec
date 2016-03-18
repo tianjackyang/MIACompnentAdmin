@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "MIACompnent"
+  s.name         = "MIACompnentAdmin"
   s.version      = "0.0.1"
   s.summary      = "use for component managerment"
 
@@ -95,8 +95,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MIACompnent", "MIACompent/**/*.{h,m}"
-  s.exclude_files = "MIACompnent/Exclude"
+  s.source_files  = "MIACompnentAdmin", "MIACompentAdmin/**/*.{h,m}"
+  s.exclude_files = "MIACompnentAdmin/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
